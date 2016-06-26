@@ -14,8 +14,12 @@ a.link{
 }
 a.hover{
     color:#FFC0CB;
-    letter-spacing: 30px;
+    letter-spacing: 50px;
 }
 a.visited{
     color:#FFC0CB;
+}
+a.active{
+    color:#FFC0CB;
+    letter-spacing: 50px;
 }
