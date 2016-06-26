@@ -1,0 +1,20 @@
+body{
+    background-color: #FF69B4;
+}
+h1{
+    color:black;
+    font-family: 微软雅黑；
+}
+a{
+    text-decoration: none;
+}
+a.link{
+    color:#F4A460;
+}
+a.hover{
+    color:#F4A460;
+    letter-spacing: 15px;
+}
+a.visited{
+    color:#F4A460;
+}
