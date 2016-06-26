@@ -1,20 +1,21 @@
 body{
-    background-color: #FF69B4;
+    background-color: #FFFAFA;
+    text-align: center;
 }
 h1{
     color:black;
-    font-family: 微软雅黑；
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
 }
 a.link{
-    color:#F4A460;
+    color:#FFC0CB;
 }
 a.hover{
-    color:#F4A460;
+    color:#FFC0CB;
     letter-spacing: 15px;
 }
 a.visited{
-    color:#F4A460;
+    color:#FFC0CB;
 }
