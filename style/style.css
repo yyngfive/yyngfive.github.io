@@ -23,6 +23,7 @@ a.active{
     color:#FFC0CB;
     letter-spacing: 50px;
 }
-div{
-    border-bottom: 10px;
+#main{
+    margin-left: 25%;
+    margin-right: 25%;
 }
