@@ -24,11 +24,15 @@ a.visited{
 a.active{
     color:#FFC0CB;
 }
-#main{
+div#main{
     margin-left: 10%;
     margin-right: 10%;
 }
-#video{
-    margin-left: 1%;
-    margin-right: :1%
+div#video{
+    margin: 0,0,0,0;
+    padding-left: 5%;
+    padding-right: 5%；
+}
+div#about{
+    clear: both;
 }
