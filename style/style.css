@@ -7,11 +7,7 @@ h1{
     color:black;
     font-family: sans-serif;
 }
-a{
-    font-family: sans-serif;
-    text-decoration: none;
-}
-a.link ,a.visited{
+a.link,a.visited{
     display: block;
     width: 150px;
     font-weight:normal;
@@ -19,6 +15,9 @@ a.link ,a.visited{
     background-color: F08080;
     text-align: center;
     padding:5px;
+    text-decoration: none;
+    font-family:sans-serif;
+
 }
  a.hover ,a.active{
     background-color: #EEA9B8;
@@ -35,6 +34,9 @@ ul{
 }
 li{
     float:left;
+}
+div#about{
+    text-align: left;
 }
 div#video{
     margin: 0;
