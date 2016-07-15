@@ -7,21 +7,21 @@ h1{
     color:black;
     font-family: sans-serif;
 }
-a.link,a.visited{
+#menu a{
+    background-color: #F08080;
+    color:#FFFFFF;
+    padding:5px;
     display: block;
     width: 150px;
-    font-weight:normal;
-    color:#white;
-    background-color: F08080;
+    font-weight:bold;
     text-align: center;
-    padding:5px;
     text-decoration: none;
     font-family:sans-serif;
 
 }
- a.hover ,a.active{
+
     background-color: #EEA9B8;
-}
+
 div#main{
     margin-left: 10%;
     margin-right: 10%;
@@ -35,14 +35,20 @@ ul{
 li{
     float:left;
 }
+#menu{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 div#about{
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: left;
+    clear: both;
 }
 div#video{
+    margin-left: 10%;
+    margin-right: 10%;
     margin: 0;
     padding-left:0 ;
     padding-right:0；
-}
-div#about{
-    clear: both;
 }
