@@ -8,6 +8,8 @@ h1{
     font-family: sans-serif;
 }
 a{
+    font-family: sans-serif;
+    color: #FFC0CB
     text-decoration: none;
 }
 a.link{
@@ -15,16 +17,18 @@ a.link{
 }
 a.hover{
     color:#FFC0CB;
-    letter-spacing: 50px;
 }
 a.visited{
     color:#FFC0CB;
 }
 a.active{
     color:#FFC0CB;
-    letter-spacing: 50px;
 }
 #main{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#video{
+    margin-left: 1%;
+    margin-right: :1%
 }
