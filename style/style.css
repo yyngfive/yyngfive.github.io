@@ -2,12 +2,12 @@ body{
     background-color: #FFFAFA;
     color:#000000;
     text-align: center;
+    font-family: sans-serif;
 }
 h1{
     color:black;
-    font-family: sans-serif;
 }
-#menu a{
+#menu a:link,#menu a:visited{
     background-color: #F08080;
     color:#FFFFFF;
     padding:5px;
@@ -17,35 +17,54 @@ h1{
     text-align: center;
     text-decoration: none;
     font-family:sans-serif;
-
 }
-
-    background-color: #EEA9B8;
-
-div#main{
+#menu a:hover,#menu a:active{
+    background-color: #000001;
+}
+ul{
+        list-style-type:none;
+        margin-right: 10%;
+        padding:0;
+        overflow: hidden;
+}
+li{
+        float:left;
+}
+#main{
     margin-left: 10%;
     margin-right: 10%;
 }
-ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-}
-li{
-    float:left;
-}
+
 #menu{
     margin-left: 10%;
     margin-right: 10%;
 }
-div#about{
+#about{
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
     clear: both;
 }
-div#video{
+.list{
+    font-family: sans-serif;;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height:250px;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 15px;
+}
+.button{
+    display: block;
+}
+#video{
     margin-left: 10%;
     margin-right: 10%;
     margin: 0;
