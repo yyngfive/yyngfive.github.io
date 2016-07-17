@@ -62,7 +62,14 @@ li{
     line-height: 15px;
 }
 .button{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color:white;
     display: block;
+    border-style: none;
+    background-color: #FF9456;
+    width: 80px;
+    height: 40px
 }
 #video{
     margin-left: 10%;
