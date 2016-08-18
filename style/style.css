@@ -5,40 +5,16 @@ body{
     font-family: sans-serif;
 }
 h1{
+    margin-top: 20px;
     color:black;
 }
-#menu a:link,#menu a:visited{
-    background-color: #F08080;
-    color:#FFFFFF;
-    padding:5px;
-    display: block;
-    width: 150px;
-    font-weight:bold;
-    text-align: center;
-    text-decoration: none;
-    font-family:sans-serif;
-}
-#menu a:hover,#menu a:active{
-    background-color: #000001;
-}
-ul{
-        list-style-type:none;
-        margin-right: 10%;
-        padding:0;
-        overflow: hidden;
-}
-li{
-        float:left;
-}
+
 #main{
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#menu{
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
 #about{
     margin-left: 10%;
     margin-right: 10%;
@@ -59,7 +35,7 @@ li{
     height:250px;
     text-align: left;
     word-spacing: 1px;
-    line-height: 15px;
+    line-height: 150%;
 }
 .button{
     font-size: 20px;
