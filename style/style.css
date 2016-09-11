@@ -9,7 +9,7 @@ h1{
     color:black;
 }
 h2{
-    line-height:120%;
+    line-height:150%;
 }
 
 #main{
@@ -27,8 +27,8 @@ h2{
 .list{
     font-family: sans-serif;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left:5%;
