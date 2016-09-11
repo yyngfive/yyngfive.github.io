@@ -26,14 +26,10 @@ h2{
 .list{
     font-family: sans-serif;
     color: white;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left:5%;
+    padding-left: 5%;
     padding-right: 5%;
-    padding-top: 10px;
     padding-bottom: 10px;
+    width: 500px;
     text-align: left;
     word-spacing: 1px;
     line-height: 150%;
