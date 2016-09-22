@@ -12,14 +12,14 @@ h2{
     line-height: 150%;
 }
 #main{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 
 #about{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     clear: both;
 }
@@ -47,8 +47,8 @@ h2{
     height: 40px;
 }
 #video{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin: 0;
     padding-left:0 ;
     padding-right:0；
