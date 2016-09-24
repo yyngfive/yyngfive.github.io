@@ -13,16 +13,16 @@ h2{
 }
 
 #about{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: left;
     clear: both;
 }
 .list{
     font-family: sans-serif;
     color: white;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5px;
@@ -42,8 +42,8 @@ h2{
     height: 40px;
 }
 #video{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin: 0;
     padding-left:0 ;
     padding-right:0；
