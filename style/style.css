@@ -8,10 +8,9 @@ h1{
     margin-top: 20px;
     color:black;
 }
-h2{
-    line-height: 150%;
+hr{
+    background-color :#545454;
 }
-
 #about{
     margin-left: 10%;
     margin-right: 10%;
