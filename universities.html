@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>大学蹭吃蹭喝指南图 </title>
+		<style>
+			#myEcharts {
+				width: 50rem;
+				height: 31.25rem;
+				border: solid 0.0625rem red;
+				margin: 0 auto;
+			}
+		</style>
+		
+		<script src="echarts.min.js"></script>
+		<script src="china.js"></script>
+		
+	</head>
+	<body>
+		<div id="myEcharts"></div>
+		<script>
+			var myChart = echarts.init(document.getElementById("myEcharts"));
+			option = {
+				title:{
+					text:"大学蹭吃蹭喝指南图",
+					left:"center"
+				},
+				tooltip:{
+					trigger:"item"
+				},
+				legend:{
+					orient:"vertical",
+					left:"left",
+					data:["大学蹭吃蹭喝指南图"]
+				},
+				visualMap: {
+					type:"piecewise",
+					pieces: [
+						{min:5,max:100,label:"≥5人",color:"#806d9e"},
+						{min:1,max:4,label:"＜5人",color:"#1661ab"},
+						{min:0,max:0,label:"没有人",color:"#f8f4ed"},
+					],
+					color:["#113311","#787878","#656565"]
+				},
+				toolbox: {
+					show:true,
+					orient:"vertical",
+					left:"right",
+					top:"center",
+					feature: {
+						mark:{show:true},
+						dataView:{show:true,readOnly:false},
+						restore:{show:true},
+						saveAsImage:{show:true}
+					}
+				},
+				roamController: {
+					show:true,
+					left:"right",
+					mapTypeControl :{"chine":true}
+				},
+				series:[
+					{
+						name:"总人数",
+						type:"map",
+						mapType:"china",
+						roam:false,
+						label:{
+							show:true,
+							color:"#FFFFFF"
+						},
+						data:[
+							{
+								name:"北京",
+								value:8
+							},{
+								name:"天津",
+								value:9
+							},{
+								name:"上海",
+								value:4,
+							},{
+								name:"江苏",
+								value:5
+							},{
+								name:"河北",
+								value:3
+							},{
+								name:"重庆",
+								value:2
+							},{
+								name:"河南",
+								value:0
+							},{
+								name:"福建",
+								value:0
+							},{
+								name:"湖北",
+								value:2
+							},{
+								name:"湖南",
+								value:2
+							},{
+								name:"广西",
+								value:0
+							},{
+								name:"广东",
+								value:1
+							},{
+								name:"宁夏",
+								value:0
+							},{
+								name:"甘肃",
+								value:1
+							},{
+								name:"新疆",
+								value:0
+							},{
+								name:"西藏",
+								value:0
+							},{
+								name:"吉林",
+								value:0
+							},{
+								name:"黑龙江",
+								value:2
+							},{
+								name:"辽宁",
+								value:4
+							},{
+								name:"陕西",
+								value:0
+							},{
+								name:"山西",
+								value:0
+							},{
+								name:"山东",
+								value:3
+							},{
+								name:"安徽",
+								value:1
+							},{
+								name:"江西",
+								value:0
+							},{
+								name:"贵州",
+								value:0
+							},{
+								name:"四川",
+								value:0
+							},{
+								name:"云南",
+								value:0
+							},{
+								name:"海南",
+								value:0
+							},{
+								name:"香港",
+								value:0
+							},{
+								name:"澳门",
+								value:0
+							},{
+								name:"台湾",
+								value:0
+							},{
+								name:"内蒙古",
+								value:0
+							},{
+								name:"浙江",
+								value:2
+							},{
+								name:"青海",
+								value:0
+							},{
+								name:"南海诸岛",
+								value:0
+							}
+						]
+					}
+				]
+			};
+			myChart.setOption(option)
+		</script>
+	</body>
+</html>
